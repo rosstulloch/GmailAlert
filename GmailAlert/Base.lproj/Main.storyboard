@@ -686,9 +686,6 @@
                     <items>
                         <menuItem title="Messages" id="xFy-hh-yUq">
                             <menu key="submenu" title="Messages" id="zcv-qR-Nix"/>
-                            <connections>
-                                <action selector="showPreferences:" target="u5z-aB-ieg" id="RBo-vc-hQs"/>
-                            </connections>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="uSj-Cz-8cM"/>
                         <menuItem title="Open Mail.app" id="YsN-d1-NmZ">
