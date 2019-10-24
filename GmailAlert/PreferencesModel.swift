@@ -13,7 +13,7 @@ class Preferences : ObservableObject {
     
     private struct StorageKeys {
         static let Account = "account"
-        static let AccountPasswordKey = "a  ccountPassword"
+        static let AccountPasswordKey = "accountPassword"
         static let CheckEveryTimeInMinutes = "checkTimeInMinutes"
         static let defaults:[String : Any] = [StorageKeys.Account : "yourgmail@gmail.com",
                                               StorageKeys.CheckEveryTimeInMinutes : 2]
