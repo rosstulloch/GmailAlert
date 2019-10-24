@@ -1,6 +1,6 @@
 //
 //  Keychain.swift
-//  ProFind
+//  GmailAlert
 //
 //  Created by Ross Tulloch on 18/1/19.
 //  Copyright © 2019 Ross Tulloch. All rights reserved.
