@@ -24,6 +24,7 @@
 		405345A42359A71700EE2BBD /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		405345A62359A79800EE2BBD /* GMailNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMailNetworking.swift; sourceTree = "<group>"; };
 		4083732D2362BB40006FA0FA /* Notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
+		4083732F23639D88006FA0FA /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		40B34E0123558F08006434C0 /* GmailAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GmailAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B34E0423558F08006434C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40B34E0623558F08006434C0 /* PreferencesWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				4083732D2362BB40006FA0FA /* Notes.txt */,
+				4083732F23639D88006FA0FA /* Screenshot.png */,
 				40B34E0323558F08006434C0 /* GmailAlert */,
 				40B34E0223558F08006434C0 /* Products */,
 			);
