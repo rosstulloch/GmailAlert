@@ -11,7 +11,6 @@
 		4053458323590B5700EE2BBD /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053458223590B5700EE2BBD /* Keychain.swift */; };
 		405345A52359A71700EE2BBD /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405345A42359A71700EE2BBD /* StatusMenuController.swift */; };
 		405345A72359A79800EE2BBD /* GMailNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405345A62359A79800EE2BBD /* GMailNetworking.swift */; };
-		4083732E2362BB40006FA0FA /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4083732D2362BB40006FA0FA /* Notes.txt */; };
 		40B34E0523558F08006434C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B34E0423558F08006434C0 /* AppDelegate.swift */; };
 		40B34E0723558F08006434C0 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B34E0623558F08006434C0 /* PreferencesWindow.swift */; };
 		40B34E0923558F0A006434C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B34E0823558F0A006434C0 /* Assets.xcassets */; };
@@ -147,7 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4083732E2362BB40006FA0FA /* Notes.txt in Resources */,
 				40B34E0F23558F0A006434C0 /* Main.storyboard in Resources */,
 				40B34E0C23558F0A006434C0 /* Preview Assets.xcassets in Resources */,
 				40B34E0923558F0A006434C0 /* Assets.xcassets in Resources */,
