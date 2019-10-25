@@ -98,6 +98,10 @@ extension StatusMenuController {
 // MARK:- Actions
 extension StatusMenuController {
 
+    @IBAction func checkNowAction(_ sender: Any?) {
+        self.checkForMail()
+    }
+
     @IBAction func openMailAction(_ sender: Any?) {
         NSWorkspace.shared.openFile("/System/Applications/Mail.app")
     }

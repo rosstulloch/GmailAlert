@@ -687,11 +687,17 @@
                         <menuItem title="Messages" id="xFy-hh-yUq">
                             <menu key="submenu" title="Messages" id="zcv-qR-Nix"/>
                         </menuItem>
-                        <menuItem isSeparatorItem="YES" id="uSj-Cz-8cM"/>
-                        <menuItem title="Open Mail.app" id="YsN-d1-NmZ">
+                        <menuItem title="Check Now" id="YsN-d1-NmZ">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
-                                <action selector="openMailAction:" target="u5z-aB-ieg" id="tHY-14-7FT"/>
+                                <action selector="checkNowAction:" target="u5z-aB-ieg" id="cJE-i4-NgT"/>
+                            </connections>
+                        </menuItem>
+                        <menuItem isSeparatorItem="YES" id="uSj-Cz-8cM"/>
+                        <menuItem title="Open Mail.app" id="iup-tB-Mfn">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="openMailAction:" target="u5z-aB-ieg" id="8TP-Rx-klo"/>
                             </connections>
                         </menuItem>
                         <menuItem title="Open mail.google.com" id="arX-tV-7zQ">
@@ -701,7 +707,8 @@
                             </connections>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="hyP-BV-AVz"/>
-                        <menuItem title="Preferences..." keyEquivalent="," id="ijr-Zv-hCb">
+                        <menuItem title="Preferences..." id="ijr-Zv-hCb">
+                            <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="showPreferences:" target="u5z-aB-ieg" id="YfE-It-ZEN"/>
                             </connections>
