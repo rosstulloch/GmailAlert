@@ -74,6 +74,7 @@ struct PreferencesContent: View {
                     }) {
                         Text("Cancel")
                         .padding()
+                        // FIXME:- Text Button height is always wrong. (19A602)
                         .padding(EdgeInsets(top: 0, leading: 0, bottom: 2, trailing: 0))
                     }
                     Button(action:{
