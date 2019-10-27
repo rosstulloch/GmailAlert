@@ -53,6 +53,12 @@ extension StatusMenuController {
                                       onError:showError)
     }
     
+    private func checkForMailSoon() {
+        Timer.scheduledTimer(withTimeInterval: 30.0, repeats: false) {_ in
+            self.checkForMail()
+        }
+    }
+    
     private func showError(_ error:NSError ) {
         self.statusBar.button?.title = MenuTexts.error
         self.buildSubjectsMenu([error.localizedDescription])
@@ -104,10 +110,12 @@ extension StatusMenuController {
 
     @IBAction func openMailAction(_ sender: Any?) {
         NSWorkspace.shared.openFile("/System/Applications/Mail.app")
+        self.checkForMailSoon()
     }
 
     @IBAction func visitGmailAction(_ sender: Any?) {
         NSWorkspace.shared.open(URL(string: "http://mail.google.com/")!)
+        self.checkForMailSoon()
     }
 
     @IBAction func showPreferences(_ sender: Any?) {

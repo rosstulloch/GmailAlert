@@ -22,7 +22,7 @@ class Preferences : ObservableObject {
     @Published var account:String = ""
     @Published var password:String = ""
     @Published var checkEveryTimeInMinutes:String = "" {
-        // FIXME:- Dumb. This a String because NumberFormatters seem to be broken in SwiftUI (19A602) on macOS.
+        // FIXME:- This a String because NumberFormatters seem to be broken in SwiftUI (19A602) on macOS. Better solution?
         didSet {
             guard let value = Int(self.checkEveryTimeInMinutes), value > 0 else {
                 self.checkEveryTimeInMinutes = oldValue
