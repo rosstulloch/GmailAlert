@@ -713,6 +713,13 @@
                                 <action selector="showPreferences:" target="u5z-aB-ieg" id="YfE-It-ZEN"/>
                             </connections>
                         </menuItem>
+                        <menuItem isSeparatorItem="YES" id="x8x-DX-6Vl"/>
+                        <menuItem title="About..." id="diI-O4-ScQ">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="orderFrontStandardAboutPanel:" target="hnw-xV-0zn" id="QF8-CJ-IgX"/>
+                            </connections>
+                        </menuItem>
                         <menuItem isSeparatorItem="YES" id="J4D-yG-1OO"/>
                         <menuItem title="Quit" id="QV0-3R-r2t">
                             <modifierMask key="keyEquivalentModifierMask"/>

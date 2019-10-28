@@ -16,6 +16,7 @@
 		40B34E0923558F0A006434C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B34E0823558F0A006434C0 /* Assets.xcassets */; };
 		40B34E0C23558F0A006434C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B34E0B23558F0A006434C0 /* Preview Assets.xcassets */; };
 		40B34E0F23558F0A006434C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B34E0D23558F0A006434C0 /* Main.storyboard */; };
+		40B77A16236797A7000A0229 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 40B77A15236797A7000A0229 /* Credits.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		40B34E0E23558F0A006434C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40B34E1023558F0A006434C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40B34E1123558F0A006434C0 /* GmailAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GmailAlert.entitlements; sourceTree = "<group>"; };
+		40B77A15236797A7000A0229 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				40B34E0823558F0A006434C0 /* Assets.xcassets */,
 				40B34E0D23558F0A006434C0 /* Main.storyboard */,
 				40B34E1023558F0A006434C0 /* Info.plist */,
+				40B77A15236797A7000A0229 /* Credits.html */,
 				40B34E1123558F0A006434C0 /* GmailAlert.entitlements */,
 				40B34E0A23558F0A006434C0 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B34E0F23558F0A006434C0 /* Main.storyboard in Resources */,
+				40B77A16236797A7000A0229 /* Credits.html in Resources */,
 				40B34E0C23558F0A006434C0 /* Preview Assets.xcassets in Resources */,
 				40B34E0923558F0A006434C0 /* Assets.xcassets in Resources */,
 			);
